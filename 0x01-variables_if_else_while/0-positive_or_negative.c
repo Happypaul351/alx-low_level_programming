@@ -12,21 +12,24 @@
 int main(void)
 {
 	int n;
+	int b;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n > 0)
+	b = n;
+
+	if (b > 0)
 	{
-		printf(" is positive\n");
+		printf(" b is positive\n");
 	}
-	else if (n == 0)
+	else if (b == 0)
 	{
-		printf(" is zero\n");
+		printf(" 0 is zero\n");
 	}
 	else
 	{
-		printf("  is negative\n");
+		printf(" b  is negative\n");
 	}
 	return (0);
 }
