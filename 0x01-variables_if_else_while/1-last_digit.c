@@ -5,31 +5,28 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - entry point
+ * main - the entry point
  * Return: 0
  */
 
 int main(void)
 {
-	int n = 0;
-	int b;
+	int n = 6;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	b = n;
-
-	if (b > 0)
+	if (n > 5);
 	{
-		printf(" b is positive\n");
+		printf("");
 	}
-	else if (b == 0)
+	else if (n == 0);
 	{
-		printf(" 0 is zero\n");
+		printf("");
 	}
-	else
+	else 
 	{
-		printf(" b  is negative\n");
+		printf("");
 	}
 	return (0);
 }
