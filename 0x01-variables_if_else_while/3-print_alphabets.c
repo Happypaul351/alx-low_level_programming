@@ -7,11 +7,13 @@
 
 int main(void)
 {
-	char ch = 'a';
+	int alpbet = 'a';
 
-	for (ch = 'a'; ch <= 'Z'; ch++)
-		putchar(ch);
-	putchar('Z');
+	while (alpbet <= 'Z')
+	{
+		putchar(alpbet);
+	}
+	putchar(alpbet++);
 	putchar('\n');
 
 	return (0);
