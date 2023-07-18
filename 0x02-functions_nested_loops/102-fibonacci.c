@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	int a, b;
+	int a, b, i;
 	int result;
 
 	a = 1;
 	b = 2;
-	for (a = 1; a <= 50; a++)
+	for (i = 1; i <= 50; i++)
 	{
 		printf("%d, ", a);
 		result = a + b;
