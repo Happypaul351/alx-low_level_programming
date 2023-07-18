@@ -7,14 +7,14 @@
 
 int main(void)
 {
-	int a, b, i;
+	int a, b;
 	int result;
 
 	a = 1;
 	b = 2;
-	for (i = 1; i <= 50; i++)
+	for (a = 1; a <= 50; a++)
 	{
-		printf("%d, ", b);
+		printf("%d, ", a);
 		result = a + b;
 		a = b;
 		b = result;
