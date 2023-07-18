@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Return: 0.
+ * main - the entry point
+ * Return: 0
  */
 
 int main(void)
 {
-	
-
-
 	return (0);
 }
