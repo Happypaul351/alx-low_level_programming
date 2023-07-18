@@ -7,8 +7,8 @@
 
 int main(void)
 {
-	int a, b, i;
-	int result;
+	unsigned int a, b, i;
+	unsigned int result;
 
 	a = 1;
 	b = 2;
