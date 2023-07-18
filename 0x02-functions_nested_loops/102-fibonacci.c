@@ -7,5 +7,16 @@
 
 int main(void)
 {
-	return (0);
+	int a, b, i;
+	int result;
+
+	a = 1;
+	b = 2;
+	for (i = 1; i <= 50; i++)
+	{
+		printf("%d\n  ", a);
+		result = a + b;
+		a = b;
+		b = result;
+	}
 }

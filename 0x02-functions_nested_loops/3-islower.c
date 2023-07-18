@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * _islower - function that check for lowercase character
@@ -9,6 +10,10 @@
 int _islower(int c)
 {
 	int c = 0;
+
+	if (islower(c) == 0)
+	{
+		putchar
 
 	return (0);
 
