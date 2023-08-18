@@ -20,13 +20,13 @@ for (a = 0; a < n; a++)
 if (a != n - 1)
 {
 if (separator != NULL)
-printf("%s%s", change_to_nil(va_arg(meters, char *)), separator);
+printf("%s%s", change_tonil(va_arg(meters, char *)), separator);
 else
-printf("%s", change_to_nil(va_arg(meters, char *)));
+printf("%s", change_tonil(va_arg(meters, char *)));
 }
 else
 {
-printf("%s", change_to_nil(va_arg(meters, char *)));
+printf("%s", change_tonil(va_arg(meters, char *)));
 }
 }
 }
@@ -34,11 +34,11 @@ printf("\n");
 va_end(meters);
 
 /**
- * change_to_nil - make s to nil if s is null
+ * change_tonil - make s to nil if s is null
  * @s: string
  * Return: pointers to s
  */
-char *change_to_nil(char *s)
+char *change_tonil(char *s)
 {
 if (s == NULL)
 s = "(nil)";
