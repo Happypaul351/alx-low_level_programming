@@ -9,18 +9,23 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *array;
+	char *apple;
 	unsigned int idx;
+
+	idx = 0;
 
 	if (size == 0)
 		return (NULL);
-	array = malloc(sizeof(char) * size);
+	apple = malloc(sizeof(char) * size);
 
-	if (array == NULL)
+	if (apple == NULL)
 		return (NULL);
 
-	for (idx = 0; idx < size; idx++)
-		array[idx] = c;
+	while (idx < size)
+	{
+		*(apple + idx) = c;
+		idx++;
+	}
 
-	return (array);
+	return (apple);
 }
