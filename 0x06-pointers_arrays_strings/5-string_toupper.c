@@ -3,7 +3,7 @@
 
 /**
  * string_toupper - change lowercase letter to upper
- * @p: to be modified
+ * @: to change string
  * Return: char
  */
 
@@ -11,13 +11,11 @@ char *string_toupper(char *)
 {
 	int b = 0;
 
-	while (p[b])
+	while ([b] != '\0')
 	{
-		if (p[b] >= 97 && p[b] <= 122)
-		{
-			p[b] -= 32;
-		}
+		if ([b] >= 'a' && [b] <= 'z')
+			[b] -= 32;
 		b++;
 	}
-	return (p);
+	return (0);
 }
