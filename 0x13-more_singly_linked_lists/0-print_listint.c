@@ -11,7 +11,7 @@ size_t print_listint(const listint_t *h)
 	size_t counter;
 
 	for (a = h, counter = 0; a != NULL; counter++, a = a->next)
-		printf("%d\n", a->next);
+		printf("%d\n", a->n);
 
 	return (counter);
 }
